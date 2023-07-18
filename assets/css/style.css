@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-grey-light: #f1f3f5;
+  --color-grey-dark: #dee2e6;
+  --color-black: #000;
+  --border-color: #ced4da;
+  --color-white: #ffff;
+  --container-width-lg: 128rem;
+}
+
+html {
+  box-sizing: border-box;
+  /* (10px / 16px )*100 = 62.5 */
+  font-size: 62.5%;
+}
